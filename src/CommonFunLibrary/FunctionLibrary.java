@@ -185,7 +185,10 @@ Thread.sleep(5000);
 Assert.assertEquals(exp_data, act_data,"snumber is not matching");
 break;
 }
-
+}
+public static void closing()
+{
+	System.out.println("message");
 }
 }
 
