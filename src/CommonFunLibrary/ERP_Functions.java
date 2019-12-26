@@ -95,7 +95,10 @@ public static void closeapp()
 {
 	driver.close();
 }
-
+public static void closeapp1()
+{
+	driver.close();
+}
 }
 
 
